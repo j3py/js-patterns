@@ -35,5 +35,5 @@ test('Test private variable is private.', () => {
 });
 
 test('Test private method is private.', () => {
-  expect(patterns.module.hasOwnProperty('privateMethod')).toBe(false);
+  expect(patterns.namespace.hasOwnProperty('privateMethod')).toBe(false);
 });
