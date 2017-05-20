@@ -1,8 +1,8 @@
+const ConstructorPattern = require('./patterns/constructor');
 const modulePattern = require('./patterns/module');
 const namespacePattern = require('./patterns/namespaceModule');
 
 // ES6 class declaration
-// Patterns is a model for all the patterns
 class Patterns {
   constructor() {
   }
@@ -13,6 +13,12 @@ class Patterns {
 
   get namespace() {
     return namespacePattern;
+  }
+
+  get Construct() {
+    // cant's use keyword "constructor"
+    // this is a Car instance
+    return ConstructorPattern;
   }
 };
 
