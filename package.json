@@ -1,0 +1,16 @@
+{
+  "name": "js-patterns",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A collection of tested JavaScript design patterns from Osmani's 'Essential JavaScript Design Patterns'.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^20.0.3"
+  }
+}

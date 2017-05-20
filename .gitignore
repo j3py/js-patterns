@@ -1,0 +1,5 @@
+# ignore node modules dir
+node_modules
+
+# ignore Mac files
+.DS*
