@@ -15,9 +15,15 @@ All the things:
 - Each method that I add will also have tests written using Jest (which eventually will be separated out into a test folder).
 
 Running the things:
-- tests: ```npm test```
-- import the module after cloning the repo:
-``` cd <repo root>
-    npm link
-    cd <your project to import into>
-    npm link js-patterns ```
+- tests:
+```
+npm test
+```
+- import the module after cloning the repo:  
+
+```
+cd <repo root>
+npm link
+cd <your project to import into>
+npm link js-patterns
+```
