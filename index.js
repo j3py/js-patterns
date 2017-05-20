@@ -1,4 +1,5 @@
 const modulePattern = require('./patterns/module');
+const namespacePattern = require('./patterns/namespaceModule');
 
 // ES6 class
 // Patterns is a model for all the patterns
@@ -8,6 +9,10 @@ class Patterns {
 
   get module() {
     return modulePattern;
+  }
+
+  get namespace() {
+    return namespacePattern;
   }
 };
 

@@ -13,6 +13,8 @@ All the things:
 - The idea is that as I go through the book I will update this class with new methods.
 - I intend to create additional classes to organize the examples so they can be imported as smaller, more organized objects.
 - Each method that I add will also have tests written using Jest (which eventually will be separated out into a test folder).
+- NOTE: I do make minor changes to the examples Osmani provides.
+- NOTE: Unless otherwise noted I used v1.6.2 of Osmani's book.
 
 Running the things:
 - tests:

@@ -1,3 +1,5 @@
+// module pattern - counter
+// p.30 (v1.6.1)
 var modulePattern = (function () {
   var counter = 0;
 
