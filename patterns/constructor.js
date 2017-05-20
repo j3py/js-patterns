@@ -1,3 +1,5 @@
+// constructor pattern - car model
+// p.20 (v1.6.2)
 var Car = function(model, year, miles) {
   this.model = model;
   this.year = year;
