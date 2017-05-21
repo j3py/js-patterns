@@ -1,8 +1,10 @@
 const ConstructorPattern = require('./patterns/constructor');
 
-const modulePattern = require('./patterns/module');
-const namespacePattern = require('./patterns/namespaceModule');
-const revealPattern = require('./patterns/revealModule');
+const ModulePattern = require('./patterns/module');
+const NamespacePattern = require('./patterns/namespaceModule');
+const RevealPattern = require('./patterns/revealModule');
+
+const SingletonPattern = require('./patterns/singleton');
 
 
 // ES6 class declaration
@@ -16,16 +18,20 @@ class Patterns {
     return ConstructorPattern;
   }
 
-  get module() {
-    return modulePattern;
+  get Module() {
+    return ModulePattern;
   }
 
-  get namespace() {
-    return namespacePattern;
+  get Namespace() {
+    return NamespacePattern;
   }
 
-  get reveal() {
-    return revealPattern;
+  get Reveal() {
+    return RevealPattern;
+  }
+
+  get Singleton() {
+    return SingletonPattern;
   }
 };
 

@@ -1,6 +1,6 @@
 // module pattern - namespace with private stuff
 // p.31 (v1.6.1)
-var namespaceModulePattern = (function () {
+var NamespaceModulePattern = (function () {
   var privateVar, privateMethod;
 
   // a private counter variable
@@ -29,4 +29,4 @@ var namespaceModulePattern = (function () {
   };
 })();
 
-module.exports = namespaceModulePattern;
+module.exports = NamespaceModulePattern;

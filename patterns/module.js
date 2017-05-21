@@ -1,6 +1,6 @@
 // module pattern - counter
 // p.30 (v1.6.1)
-var modulePattern = (function () {
+var ModulePattern = (function () {
   var counter = 0;
 
   return {
@@ -16,4 +16,4 @@ var modulePattern = (function () {
   };
 })();
 
-module.exports = modulePattern;
+module.exports = ModulePattern;

@@ -1,6 +1,6 @@
 // revealing module pattern - public/private stuff again
 // p.33 (v1.6.2)
-var revealModulePattern = (function () {
+var RevealModulePattern = (function () {
   var privateVar = "Agent Cooper",
       publicVar = "Would you like a donut?";
 
@@ -25,4 +25,4 @@ var revealModulePattern = (function () {
   };
 })();
 
-module.exports = revealModulePattern;
+module.exports = RevealModulePattern;
