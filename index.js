@@ -6,6 +6,8 @@ const RevealPattern = require('./patterns/revealModule');
 
 const SingletonPattern = require('./patterns/singleton');
 
+const ObserverPattern = require('./patterns/observer');
+
 
 // ES6 class declaration
 class Patterns {
@@ -32,6 +34,10 @@ class Patterns {
 
   get Singleton() {
     return SingletonPattern;
+  }
+
+  get Observer() {
+    return ObserverPattern;
   }
 };
 
